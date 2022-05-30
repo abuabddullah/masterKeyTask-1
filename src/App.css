@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.fontFamily {
+  font-family: 'PT Sans', sans-serif;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +41,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.textPrimary {
+  color: #FF6F00;
+}
+.bgPrimary {
+  background-color: #FF6F00 !important;
+}
+
+.textSecondary {
+  color: #644F9C !important;
+}
+.bgSecondary {
+  background-color: #644F9C !important;
+}
+
+.textAccent {
+  color: #F2F2F2;
+}
+.bgAccent {
+  background-color: #F2F2F2;
+}
+
+.textDark {
+  color: #404040;
+}
+.bgDark {
+  background-color: #404040;
+}
+
+.startIndicatorPos {
+  left: 35% !important;
+}
+
+.borderCarousel {
+  border : 1px solid #FF6F00 !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ObjectfitCover {
+  object-fit: cover;
 }
